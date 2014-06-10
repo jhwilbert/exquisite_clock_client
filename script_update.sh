@@ -2,7 +2,7 @@
 
 getTxt() {
 	
-WGET_OUTPUT=$(2>&1 wget -m -nd -N	-P  ~/exquisiteclock/feeds/ http://www.exquisiteclock.org/clock/feed/wgetfeed.txt )
+WGET_OUTPUT=$(2>&1 wget -m -nd -N	-P  "$PWD"'/feeds' http://www.exquisiteclock.org/clock/feed/wgetfeed.txt )
 
 # Make sure the download went okay.
 if [ $? -ne 0 ]
@@ -22,7 +22,7 @@ fi
 
 getFiles() {
 	
-WGET_OUTPUT=$(2>&1 wget -N -i ~/exquisiteclock/feeds/wgetfeed.txt -P ~/exquisiteclock/clock/ )
+WGET_OUTPUT=$(2>&1 wget -N -i "$PWD"/feeds/wgetfeed.txt -P "$PWD"'/clock' )
 
 # Make sure the download went okay.
 if [ $? -ne 0 ]
@@ -42,7 +42,7 @@ fi
 
 getJson() {
 	
-WGET_OUTPUT=$(2>&1 wget -m -nd -N -P ~/exquisiteclock/feeds/ http://www.exquisiteclock.org/clock/feed/feed.json )
+WGET_OUTPUT=$(2>&1 wget -m -nd -N -P "$PWD"'/feeds' http://www.exquisiteclock.org/clock/feed/feed.json )
 
 # Make sure the download went okay.
 if [ $? -ne 0 ]
