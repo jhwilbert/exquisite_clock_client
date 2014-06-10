@@ -49,7 +49,7 @@ Updates the clock with most recent JPG files populating the folder clock/
 Downloads the last JSON feed from web platform and populates the folder feeds/feed.json
 
 
-``script_update.sh``` 
+```script_update.sh```
 Start auto update process donwloading a JSON file every 5 seconds and compares to local version
 If file encounters a new number in serialized list it downloads that number to clock/
 
