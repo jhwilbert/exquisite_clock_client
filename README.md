@@ -43,8 +43,18 @@ C. Restart Apache
 
 D. Check site in http://localhost/~exquisiteclock/
 
-###Run Instructions Instructions
+###Run  Instructions
 
+#Shell Processes
+Update .sh and command files with current base directory of Exquisite Clock (~/Sites is default)
+
+script_startup.command	> updates the clock with most recent JPG files and feed.json
+script_update.sh > start auto update process
+
+#Webframe Application
+Check URL specified in URL.txt pointing at local apache server (or test server)
+
+open exquisite_client_final.app to launch application
 
 
 
