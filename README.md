@@ -30,7 +30,8 @@ D. Edit Config file adding clock user sites folder
     AllowOverride None
     Order allow,deny
     Allow from all
-</Directory>```
+</Directory>
+```
 
 C. Restart Apache
 
