@@ -16,8 +16,8 @@ B. Install Wget (using Brew)
 
 C. Install Git (using Brew)
 
-```$ brew install git
-```
+```$ brew install git```
+
 
 C. Create Server Config File
 
