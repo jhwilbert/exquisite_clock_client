@@ -1,5 +1,6 @@
 #!/bin/sh
 
+
 getTxt() {
 	
 WGET_OUTPUT=$(2>&1 wget -m -nd -N	-P  "$PWD"'/feeds' http://www.exquisiteclock.org/clock/feed/wgetfeed.txt )
