@@ -1,39 +1,41 @@
-exquisite_clock_client
+Exquisite Clock Client 
 ======================
+
+###Setup Instructions
 
 Client for Exquisite Clock. With startup processes and updates
 Dependencies: ruby, Python
 
-1. Install Brew
+A. Install Brew
 
-$ ruby -e "$(curl -fsSL https://raw.github.com/Homebrew/homebrew/go/install)"
+```$ ruby -e "$(curl -fsSL https://raw.github.com/Homebrew/homebrew/go/install)"```
 
-2. Install Wget (using Brew)
+B. Install Wget (using Brew)
 
-$ brew install wget
+```$ brew install wget```
 
+C. Install Git (using Brew)
 
-3. Install Git (using Brew)
+```$ brew install git
+```
 
-$ brew install git
+C. Create Server Config File
 
-4. Create Server Config File
+```sudo vi /etc/apache2/users/exquisiteclock.conf```
 
-sudo vi /etc/apache2/users/exquisiteclock.conf
+D. Edit Config file adding clock user sites folder
 
-5. Edit Config file adding clock user sites folder
-
+```
 <Directory "/Users/exquisiteclock/exquisite_client/">
     Options Indexes MultiViews
     AllowOverride None
     Order allow,deny
     Allow from all
 </Directory>
+```
 
-6. Restart Apache
+C. Restart Apache
 
-$ sudo apachectl restart
+``` $ sudo apachectl restart```
 
-7. Check site in http://localhost/~exquisiteclock/
-
-
+D. Check site in http://localhost/~exquisiteclock/
