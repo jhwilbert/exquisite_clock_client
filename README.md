@@ -2,9 +2,12 @@ Exquisite Clock Client
 ======================
 
 ###Setup Instructions
+Mac OSX 10.9 
 
-Client for Exquisite Clock. With startup processes and updates
-Dependencies: ruby, Python
+Client for Exquisite Clock. With startup processes and updates.
+
+Dependencies: Ruby, Python
+
 
 A. Install Brew
 
@@ -39,3 +42,9 @@ C. Restart Apache
 ``` $ sudo apachectl restart```
 
 D. Check site in http://localhost/~exquisiteclock/
+
+###Run Instructions Instructions
+
+
+
+
