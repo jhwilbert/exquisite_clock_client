@@ -44,11 +44,17 @@ D. Check site in http://localhost/~exquisiteclock/
 ####Shell Processes
 Update .sh and command files with current base directory of Exquisite Clock (~/Sites is default)
 
-```script_startup.command```	> updates the clock with most recent JPG files and feed.json
-``script_update.sh``` > start auto update process
+```script_startup.command```
+Updates the clock with most recent JPG files populating the folder clock/
+Downloads the last JSON feed from web platform and populates the folder feeds/feed.json
+
+
+``script_update.sh``` 
+Start auto update process donwloading a JSON file every 5 seconds and compares to local version
+If file encounters a new number in serialized list it downloads that number to clock/
 
 ####Webframe Application
-Check URL specified in URL.txt pointing at local apache server (or test server)
+Check URL specified in URL.txt pointing at local apache server (or test server). The application will extend itself to the maximum width of the current configured output displays.
 
 open exquisite_client_final.app to launch application
 
