@@ -1,12 +1,13 @@
 Exquisite Clock Client 
 ======================
 
+The current setup instructions install the Exquisite Clock from the current Github repository and makes use of OSX native apache2 installation. It assumes the client will be installed in Sites/ folder a user in a OSX 10.9 (or superior) installation of MacOS.
+
+It makes use of Brew to install the necessary packages (wget and GIT).
+
+This installation was tested in: Mac OSX 10.9 
+
 ###Setup Instructions
-Mac OSX 10.9 
-
-Client for Exquisite Clock. With startup processes and updates.
-
-Dependencies: Ruby, Python
 
 
 A. Install Brew
@@ -48,8 +49,8 @@ D. Check site in http://localhost/~exquisiteclock/
 #Shell Processes
 Update .sh and command files with current base directory of Exquisite Clock (~/Sites is default)
 
-script_startup.command	> updates the clock with most recent JPG files and feed.json
-script_update.sh > start auto update process
+```script_startup.command```	> updates the clock with most recent JPG files and feed.json
+``script_update.sh``` > start auto update process
 
 #Webframe Application
 Check URL specified in URL.txt pointing at local apache server (or test server)
