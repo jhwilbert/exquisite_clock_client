@@ -57,6 +57,3 @@ If file encounters a new number in serialized list it downloads that number to c
 Check URL specified in URL.txt pointing at local apache server (or test server). The application will extend itself to the maximum width of the current configured output displays.
 
 open exquisite_client_final.app to launch application
-
-
-
