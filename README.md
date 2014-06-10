@@ -42,11 +42,8 @@ D. Check site in http://localhost/~exquisiteclock/
 ###Run  Instructions
 
 ####Shell Processes
-Update .sh and command files with current base directory of Exquisite Clock (```~/Sites```is default)
+Update .sh and command files with current base directory of Exquisite Clock (```~/Sites``` is default)
 
-```script_startup.command```
-Updates the clock with most recent JPG files populating the folder clock/
-Downloads the last JSON feed from web platform and populates the folder feeds/feed.json
 
 ```script_update.sh```
 Start auto update process donwloading a JSON file every 5 seconds and compares to local version
