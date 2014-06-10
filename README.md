@@ -30,8 +30,7 @@ D. Edit Config file adding clock user sites folder
     AllowOverride None
     Order allow,deny
     Allow from all
-</Directory>
-```
+</Directory>```
 
 C. Restart Apache
 
@@ -42,7 +41,7 @@ D. Check site in http://localhost/~exquisiteclock/
 ###Run  Instructions
 
 ####Shell Processes
-Update .sh and command files with current base directory of Exquisite Clock (~/Sites is default)
+Update .sh and command files with current base directory of Exquisite Clock (```~/Sites``` is default)
 
 ```script_startup.command```
 Updates the clock with most recent JPG files populating the folder clock/
