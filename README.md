@@ -1,11 +1,7 @@
 Exquisite Clock Client 
 ======================
 
-The current setup instructions install the Exquisite Clock from the current Github repository and makes use of OSX native apache2 installation. It assumes the client will be installed in Sites/ folder a user in a OSX 10.9 (or superior) installation of MacOS.
-
-It makes use of Brew to install the necessary packages (wget and GIT).
-
-This installation was tested in: Mac OSX 10.9 
+The current setup instructions install the Exquisite Clock from the current Github repository and makes use of OSX native apache2 installation. It assumes the client will be installed in Sites/ folder a user in a OSX 10.9 (or superior) installation of MacOS.It makes use of Brew to install the necessary packages (wget and GIT). This installation was tested in: Mac OSX 10.9 
 
 ###Setup Instructions
 
