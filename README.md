@@ -35,7 +35,7 @@ D. Edit Config file adding clock user sites folder
 
 C. Restart Apache
 
-``` $ sudo apachectl restart```
+```$ sudo apachectl restart```
 
 D. Check site in http://localhost/~exquisiteclock/
 
@@ -43,6 +43,10 @@ D. Check site in http://localhost/~exquisiteclock/
 
 ####Shell Processes
 Update .sh and command files with current base directory of Exquisite Clock (```~/Sites``` is default)
+
+```script_startup.command```
+Updates the clock with most recent JPG files populating the folder clock/
+Downloads the last JSON feed from web platform and populates the folder feeds/feed.json
 
 
 ```script_update.sh```
