@@ -26,7 +26,7 @@ C. Create Server Config File
 D. Edit Config file adding clock user sites folder
 
 ```
-<Directory "/Users/exquisiteclock/exquisite_client/">
+<Directory "/Users/exquisiteclock/Sites/">
     Options Indexes MultiViews
     AllowOverride None
     Order allow,deny
