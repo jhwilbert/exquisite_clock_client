@@ -3,18 +3,25 @@ var recentnum = new Array();
 var imageDir = "clock/";
 var timer;
 
+
 //CLOCK WRAPPER
 function ClockAPI(){};
+
+
+
 ClockAPI.Numbers = function Numbers(){};
 ClockAPI.Numbers.getNumbers = function(callback){
-	requestURL = "http://localhost:8000/exquisiteclock/feeds/feed.json?time="+Math.random();
+    
+	requestURL = "feeds/feed.json?time="+Math.random();
 	$.getJSON(requestURL, callback);
 }
 
 //LOADS THE FEED AND PUTS THE IMAGES INTO AN ARRAY NUM
 function initClock(){
     
-    console.debug("Loaded Clock")
+    
+    console.debug("Loaded Clock");
+    
 	ClockAPI.Numbers.getNumbers(function(json){
 	num = new Array();	
 	$.each(json, function(i){
