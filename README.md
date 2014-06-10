@@ -9,7 +9,6 @@ This installation was tested in: Mac OSX 10.9
 
 ###Setup Instructions
 
-
 A. Install Brew
 
 ```$ ruby -e "$(curl -fsSL https://raw.github.com/Homebrew/homebrew/go/install)"```
@@ -46,13 +45,13 @@ D. Check site in http://localhost/~exquisiteclock/
 
 ###Run  Instructions
 
-#Shell Processes
+####Shell Processes
 Update .sh and command files with current base directory of Exquisite Clock (~/Sites is default)
 
 ```script_startup.command```	> updates the clock with most recent JPG files and feed.json
 ``script_update.sh``` > start auto update process
 
-#Webframe Application
+####Webframe Application
 Check URL specified in URL.txt pointing at local apache server (or test server)
 
 open exquisite_client_final.app to launch application
